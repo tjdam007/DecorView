@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dp2">
+
+    <ImageView
+        android:id="@+id/itemImageView"
+        android:layout_width="@dimen/dp70"
+        android:layout_height="@dimen/dp70"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kitchen05_thumb01" />
+
+    <TextView
+        android:id="@+id/itemTextView"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="@dimen/dp70"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TEXT" />
+</LinearLayout>
